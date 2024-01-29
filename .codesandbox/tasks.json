@@ -11,27 +11,27 @@
   "tasks": {
     "build": {
       "name": "build",
-      "command": "yarn build",
+      "command": "pnpm build",
       "runAtStart": false
     },
     "dev": {
       "name": "dev",
-      "command": "yarn dev",
+      "command": "pnpm run dev",
       "runAtStart": true
     },
     "generate": {
       "name": "generate",
-      "command": "yarn generate",
+      "command": "pnpm run generate",
       "runAtStart": false
     },
     "preview": {
       "name": "preview",
-      "command": "yarn preview",
+      "command": "pnpm run preview",
       "runAtStart": false
     },
     "postinstall": {
       "name": "postinstall",
-      "command": "yarn postinstall",
+      "command": "pnpm run postinstall",
       "runAtStart": false
     },
     "pnpm run dev": {
